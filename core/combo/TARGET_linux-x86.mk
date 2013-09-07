@@ -86,7 +86,7 @@ endif
 KERNEL_HEADERS := $(KERNEL_HEADERS_COMMON) $(KERNEL_HEADERS_ARCH)
 
 TARGET_GLOBAL_CFLAGS += \
-			-O2 \
+			-O3 \
 			-Ulinux \
 			-Wa,--noexecstack \
 			-Werror=format-security \
